@@ -1,16 +1,21 @@
 <%--
   Created by IntelliJ IDEA.
   User: Administrator
-  Date: 2018-01-26
-  Time: 19:03
+  Date: 2018-02-03
+  Time: 22:47
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  this is jsp
-  </body>
+<head>
+    <title>Title</title>
+</head>
+<body>
+<%
+    String message= (String) application.getAttribute("message");
+    out.write(message);
+
+%>
+
+</body>
 </html>

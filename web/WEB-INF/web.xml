@@ -27,4 +27,31 @@
         <servlet-name>ServletDown</servlet-name>
         <url-pattern>/down</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ServletImage</servlet-name>
+        <servlet-class>com.rt.ServletImage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletImage</servlet-name>
+        <url-pattern>/image</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletRefresh</servlet-name>
+        <servlet-class>com.rt.ServletRefresh</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletRefresh</servlet-name>
+        <url-pattern>/refresh</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SeveletRequest</servlet-name>
+        <servlet-class>com.rt.ServletRequest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SeveletRequest</servlet-name>
+        <url-pattern>/req</url-pattern>
+    </servlet-mapping>
+
 </web-app>
